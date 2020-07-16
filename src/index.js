@@ -15,7 +15,7 @@ module.exports = {
 
         window.zESettings = options.settings;
 
-        const root = new Vue()
+        const root = new Vue();
         root._script = document.createElement("script");
         root._script.type = "text/javascript";
         root._script.async = true;
